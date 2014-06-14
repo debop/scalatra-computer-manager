@@ -1,6 +1,11 @@
 *.class
 *.log
 
+# gradle specific
+.gradle
+build
+out
+
 # sbt specific
 .cache/
 .history/
@@ -11,6 +16,10 @@ lib_managed/
 src_managed/
 project/boot/
 project/plugins/project/
+
+# IntelliJ specific
+*.iml
+.idea
 
 # Scala-IDE specific
 .scala_dependencies
