@@ -1,5 +1,0 @@
-rootProject.name = 'scalatra-computer-manager'
-
-include 'data'
-include 'web'
-
